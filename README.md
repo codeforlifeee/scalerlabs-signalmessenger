@@ -6,6 +6,26 @@ A full-stack clone of the Signal messaging application built with **Next.js** (T
 
 ---
 
+## 🌐 Live Demo & Real-Time Testing Guide
+
+You can test the real-time WebSocket messaging right now by opening two different browser windows side-by-side!
+
+### How to test:
+1. Open your live Vercel link in your main browser (e.g., Chrome).
+2. Login with username **`alice`** and password **`password123`**.
+3. Open a **Private/Incognito Window** (or a different browser like Firefox) and go to the same URL.
+4. Login with username **`bob`** and password **`password123`**.
+5. Select "Bob Smith" from Alice's sidebar, and "Alice Johnson" from Bob's sidebar.
+6. Type a message and hit Enter! You will see the messages instantly appear on both screens with Signal's delivery receipts (✓✓).
+
+**Live Chat Demo:**
+*(Alice's View & Bob's View)*
+
+![Alice Chat View](docs/alice_chat_demo.png)
+![Bob Chat View](docs/bob_chat_demo.png)
+
+---
+
 ## 🏗️ Architecture Overview
 
 ```
