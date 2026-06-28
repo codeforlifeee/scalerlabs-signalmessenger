@@ -5,7 +5,9 @@
 
 import { getToken } from './api';
 
-const WS_BASE_URL = process.env.NEXT_PUBLIC_WS_URL || 'ws://localhost:8000';
+// Automatically derive the WebSocket URL from the API URL
+const apiBase = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+const WS_BASE_URL = process.env.NEXT_PUBLIC_WS_URL || apiBase.replace(/^http/, 'ws');
 
 type EventHandler = (data: Record<string, unknown>) => void;
 
