@@ -2,6 +2,13 @@
 
 A full-stack clone of the Signal messaging application built with **Next.js** (TypeScript) and **FastAPI** (Python), featuring real-time messaging, group chats, and a Signal-faithful dark UI.
 
+### 🔗 Live Links
+- **Frontend (Vercel):** [https://scalerlabs-signalmessenger.vercel.app](https://scalerlabs-signalmessenger.vercel.app)
+- **Backend API (Render):** [https://scalerlabs-signalmessenger.onrender.com/docs](https://scalerlabs-signalmessenger.onrender.com/docs)
+
+> [!WARNING]
+> **Important Note:** The backend is hosted on Render's free tier. If the app hasn't been used in a while, the server will "go to sleep". When you first open the frontend, **please wait 30–60 seconds** for the backend to wake up. Once it wakes up, real-time messaging will be lightning fast!
+
 ![Signal Clone Screenshot](docs/screenshot.png)
 
 ---
